@@ -46,7 +46,7 @@ public class FinancialCalculator {
         System.out.print("ыыберите пункт меню: ");
     }
 
-    private static void enterExpenses() {
+    private static void enterExpenses() { //ввести расходы за день
         System.out.print("Введите день (от 1 до 30): ");
         int day = scanner.nextInt();
 
@@ -78,7 +78,7 @@ public class FinancialCalculator {
     }
 
 
-    private static void displayExpenses() {
+    private static void displayExpenses() { //отображение трат за месяц
         System.out.println("траты за месяц:");
         for (int day = 1; day <= 30; day++) {
             System.out.println(day+ " день – " + expenses[day] + " руб");
@@ -86,7 +86,7 @@ public class FinancialCalculator {
         System.out.println();
     }
 
-    private static void displayMaxExpenseDay() {
+    private static void displayMaxExpenseDay() { //самая большая трата за месяц
         int maxExpense = 0;
         int maxExpenseDay = 0;
 
