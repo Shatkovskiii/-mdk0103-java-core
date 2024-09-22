@@ -4,7 +4,7 @@ public class ArrayNumber {
     int[] array; 
     int size; 
  
-    // создаём массив и сразу заполняем случайными числами
+    // создаём массив
     ArrayNumber(int capacity) { 
         array = new int[capacity]; 
         size = capacity; 

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App { 
     public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in); 
-        ArrayNumber arrayNumber = new ArrayNumber(100); // небольшой массив для простоты
+        ArrayNumber arrayNumber = new ArrayNumber(100); // массив
         Person[] people = new Person[100]; // массив для людей
         int personCount = 0; // сколько людей добавлено
  
